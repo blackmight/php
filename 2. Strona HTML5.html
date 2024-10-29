@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. Strona HTML5</title>
+
+    <style>
+
+        header {
+            background: #e09994;
+            height: 80px;
+            padding: 20px;
+            text-align: center;
+            font: 1.3em Tahoma, sans-serif;
+        }
+
+        main {
+            background: green;
+            width: calc(60% - 4px);
+            height: 300px;
+            float: left;
+            border: solid red 2px;
+        }
+
+        aside {
+            background: rgb(119, 195, 224);
+            width: 20%;
+            height: 304px;
+            float: right;
+            font: 1.3em Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        footer {
+            background: #699963;
+            min-height: 100px;
+            clear: both;
+            padding: 20px;
+            text-align: center;
+            font: 1.3em Tahoma, sans-serif;
+        }
+
+        article {
+            font: 2em Arial, sans-serif;
+            color: red;
+            text-align: center;
+            background-color: lightgray;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        nav {
+            float: left;
+            width: calc(20% - 20px);
+            background-color: lightblue;
+            height: calc(300px - 20px + 4px);
+            padding: 10px;
+            font: 1.3em Tahoma, sans-serif;
+            
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>HEADER</header>
+
+    <nav>Tylko dla nawigacji na stronie</nav>
+
+    <main>
+
+        <article>abcd 1</article>
+        <article>
+            <section>abcd 2</section>
+            <section>abcd 3</section>
+        </article>
+        <article>abcd 4</article>
+
+    </main>
+
+    <aside>Tylko dla dodatkowych informacji</aside>
+    <footer>FOOTER</footer>
+    
+</body>
+</html>
