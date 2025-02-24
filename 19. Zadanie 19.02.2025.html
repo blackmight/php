@@ -1,0 +1,51 @@
+<!-- w formularzu treść napisu, wielkość czcionki, kolor tekstu, 
+jednego checkboxa (pogrubiony/niepogrubiony) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 19.02.2025</title>
+
+    <style>
+        
+        body{
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            display: flex;
+        }
+
+        form {
+            width: 350px;
+            height: 300px;
+            border: 5px solid black;
+            padding: 50px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <form action="Zadanie 19.02.2025 PHP.php" method="post">
+
+        <label>Treść napisu</label>
+        <input type="text" id="napis" name="napis" placeholder="Treść napisu" required><br>
+        Wielkość czcionki <input type="number" id="wielkosc_czcionki" name="wielkosc_czcionki" value="100"><br>
+        Pogrubiony/niepogrubiony<input type="checkbox" name="strong" id="ch1"><br>
+        <label>Kolor tekstu</label>
+        <select name="kolor" id="kolor">
+            <option value="red">Czerwony</option>
+            <option value="green">Zielony</option>
+            <option value="blue">Niebieski</option>
+        </select>
+        <br>
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Czyść dane">
+
+    </form>
+    
+</body>
+</html>

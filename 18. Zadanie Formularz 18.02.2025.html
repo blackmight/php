@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Zadanie 18.02.2025</title>
+
+    <style>
+        
+        body{
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            display: flex;
+        }
+
+        form {
+            width: 300px;
+            height: 300px;
+            border: 5px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <form action="18. Zadanie 18.02.2025 Formularz.php" method="post">
+
+        <label>Nazwisko</label>
+        <input type="text" id="nazwisko" name="nazwisko" maxlength="10" placeholder="Wpisz nazwisko" required><br>
+        Wiek: <input type="number" id="wiek" name="wiek" value="100"><br>
+        Obecny: <input type="checkbox" name="obecny" id="ch1"><br>
+        Płeć: <br>
+        kobieta <input type="radio" name="plec" value="kobieta" checked><br>
+        mężczyzna <input type="radio" name="plec" value="mężczyzna"><br>
+
+        <!-- input emai -->
+
+        <select name="kolor" id="kolor">
+            <option value="czerwony">Czerwony</option>
+            <option value="zielony">Zielony</option>
+            <option value="niebieski">Niebieski</option>
+        </select>
+        <br>
+        <textarea name="opis"></textarea>
+        <br>
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Czyść dane">
+
+    </form>
+
+    <br>
+    
+     
+</body>
+</html>
